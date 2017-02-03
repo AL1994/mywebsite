@@ -1,0 +1,68 @@
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+	*+height: 1%;
+}
+.tag-container {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: 1px solid #ccc;
+	/*height: 37px;*/
+}
+.tag-container .tag-item {
+	background-color: #cee5f5;
+	color: #2b4f62;
+	cursor: pointer;
+	padding: 3px 8px;
+	float: left;
+	margin-right: 5px;
+}
+.tag-container .tag-input-wrap {
+	float: left;
+	position: relative;
+	height: 100%;
+}
+.tag-container .tag-input-wrap input{
+	border: 0;
+	width: 100px;
+	height: 100%;
+	outline: none !important;
+}
+.tag-prompt {
+	width: 200px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: 1px solid #ccc;
+	display: none;
+	background: #fff;
+	position: absolute;
+	left: 0;
+	z-index: 9999;
+}
+.tag-prompt li {
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+}
+.tag-prompt li.selected, .tag-prompt li:hover{
+	background: #cee5f5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+h1.t_nav span{float:right; color:#999}
+h1.t_nav { border-bottom: #F1F1F1 1px solid; font-size: 12px; font-weight: normal; line-height: 40px; height: 40px; }
+h1.t_nav a { width: 100px; display: block; text-align: center; color: #fff; float: left }
+.n1 { background: #5EA51B; }
+.n2 { background: #8BBF5D; }
+
+.left { float: left; width: 740px; overflow: hidden; background: url(../img/r_line.jpg) repeat-y right; margin: 20px 0;}
+
+
+
+
+.about_c{ padding:10px 0 0 10px; color:#999; line-height:26px;margin:20px auto  }
+.about_c img{ margin:5px 0}
+.about_c span{ color:#19A566}
+.right{ float: right; width: 250px; }
+
+.left{font-size: 15px;/*background-color: #eeeded;*/}
+.left h3{
+	font-size: 17px;
+}
+/*archives*/
+.archives{padding-right: 20px;}
+.archives td{padding: 6px 10px 8px;border-bottom: solid 1px #eee}
+.archives table{padding:10px 0 20px}
+.meta-tit{border-bottom: solid 1px #e6e6e6;padding: 0 0 10px;margin-bottom: 20px}

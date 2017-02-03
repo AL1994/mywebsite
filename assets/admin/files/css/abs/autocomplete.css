@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul, ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+}
+#container{
+	width: 300px;
+	margin: 0px auto;
+	margin-top: 100px;
+}
+.autocomplete-list{
+	margin-top: 0px;
+	width: 110px;
+	border: 1px solid #333;
+	position: absolute;
+}
+.autocomplete-list li{
+	height: 25px;
+	line-height: 25px;
+	text-indent: 20px;
+	cursor: pointer;
+}
+.autocomplete-list li:hover{
+	background: #ccc;
+}
+.autocomplete-list li.selected{
+	background: #ccc;
+}
